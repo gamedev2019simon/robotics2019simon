@@ -1,4 +1,5 @@
 # robotics2019simon
-Robotics websites for the photon
+Robotics websites for the particle photon for a school project
+USE AT YOUR OWN RISK
 
 https://gamedev2019simon.github.io/robotics2019simon/WebPage1.html
