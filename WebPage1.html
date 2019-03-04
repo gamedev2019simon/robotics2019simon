@@ -223,7 +223,22 @@ My Buttons (Simon) <br>
 <tr> <td>
 <input type="button" value="A2 read" onClick="{
     sendToParticle('analogRead(A2);')
-}"> </td> </tr> </table>
+}"> </td> </tr>
+<tr> <td>
+<input type="button" value="A0 read" onClick="{
+    sendToParticle('analogRead(A0);')
+}"> </td>
+<td>
+<input type="button" value="D0 HIGH" onClick="{
+    sendToParticle('digitalWrite(D0, HIGH);')
+}"> </td>
+<td>
+<input type="button" value="D0 LOW" onClick="{
+    sendToParticle('digitalWrite(D0, LOW);')
+}"> </td>
+   
+</tr>
+</table>
 
 
 
